@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Patil | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 1rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        .skills, .work {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .skill, .project {
+            flex: 1 1 calc(33% - 1rem);
+            background: #f4f4f4;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #007bff;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .skill, .project {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nikhil Patil</h1>
+    <p>Content Strategist | Social Media Manager | Digital Marketer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I’m a passionate Content Strategist and Digital Marketer with over 1 year of experience in crafting impactful content strategies and driving measurable growth. With expertise in social media management, data-driven storytelling, and tools like Power BI and Tableau, I blend creativity and analytics to build stronger brands and communities.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>Content Marketing</h3>
+                <p>Strategic planning, brand storytelling, and audience engagement.</p>
+            </div>
+            <div class="skill">
+                <h3>Social Media Management</h3>
+                <p>Campaign creation, performance analysis, and scaling accounts.</p>
+            </div>
+            <div class="skill">
+                <h3>Technical Tools</h3>
+                <p>Power BI, Tableau, Google Analytics, SQL, Python.</p>
+            </div>
+            <div class="skill">
+                <h3>Creative Tools</h3>
+                <p>Canva, Figma, Adobe Premiere Pro, DaVinci Resolve.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <h2>Work Experience</h2>
+        <div class="work">
+            <div class="project">
+                <h3>Content Strategist & Marketer</h3>
+                <p><strong>POWERCON</strong> | July 2023 – Present</p>
+                <ul>
+                    <li>Increased LinkedIn and Instagram engagement by 68%.</li>
+                    <li>Developed targeted campaigns to enhance lead generation.</li>
+                    <li>Analyzed and refined content strategies using analytics tools.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Social Media Manager</h3>
+                <p><strong>YouTuber Vaibhav Kadnar</strong> | May 2023 – July 2023</p>
+                <ul>
+                    <li>Grew Instagram account from 0 to 85K followers in 1.5 months.</li>
+                    <li>Managed platforms including YouTube, Facebook, Snapchat, and more.</li>
+                    <li>Researched content and wrote scripts, captions, and video text.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Content Strategist Intern</h3>
+                <p><strong>Esinagrow</strong> | February 2023 – June 2023</p>
+                <ul>
+                    <li>Boosted social media reach by 30% through curated campaigns.</li>
+                    <li>Created short-form video scripts and optimized social media posts.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="work">
+            <div class="project">
+                <h3>Atliq Hardware Sales Insights</h3>
+                <p>Developed Power BI dashboards to provide actionable insights into revenue, profit, and customer segmentation.</p>
+            </div>
+            <div class="project">
+                <h3>Social Media Growth Campaign</h3>
+                <p>Designed and executed strategies that scaled Vaibhav Kadnar’s social media platforms, achieving exceptional growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to work together or have any questions, feel free to reach out!</p>
+        <ul>
+            <li><strong>Email:</strong> nikhilpatil4661@gmail.com</li>
+            <li><strong>Phone:</strong> +91-8762474016</li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nikhilpatill/">Nikhil Patil</a></li>
+            <li><strong>YouTube:</strong> <a href="https://www.youtube.com/@NikhillPatil">Nikhil Patil</a></li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Nikhil Patil. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
